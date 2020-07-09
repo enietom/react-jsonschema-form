@@ -3,6 +3,7 @@ import { Theme as MuiTheme } from "@rjsf/material-ui";
 import { Theme as FluentUITheme } from "@rjsf/fluent-ui";
 import { Theme as SuiTheme } from "@rjsf/semantic-ui";
 import { Theme as AntdTheme } from "@rjsf/antd";
+import { Theme as BulmaTheme } from "@rjsf/bulma";
 import Playground from "./app";
 import { render } from "react-dom";
 
@@ -103,6 +104,10 @@ const themes = {
     stylesheet:
       "//static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css",
     theme: FluentUITheme,
+  },
+  bulma: {
+    stylesheet: "//cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css",
+    theme: BulmaTheme,
   },
 };
 

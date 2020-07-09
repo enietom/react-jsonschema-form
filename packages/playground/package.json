@@ -46,6 +46,7 @@
     "@rjsf/fluent-ui": "^2.2.0",
     "@rjsf/material-ui": "^2.2.0",
     "@rjsf/semantic-ui": "^2.2.0",
+    "@rjsf/bulma": "^2.2.0",
     "ajv": "^6.7.0",
     "antd": "^4.3.5",
     "core-js": "^2.5.7",
