@@ -18,6 +18,7 @@ module.exports = {
     port: 8080
   },
   resolve: {
+    modules: ['node_modules', 'src'],
     alias: {
       "@material-ui/styles": path.resolve("node_modules", "@material-ui/styles"),
       react: path.resolve('./node_modules/react'),
@@ -48,7 +49,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.s?css$/,
+        test: /\.(sass|s?css)$/,
         use: [
           "style-loader",
           "css-loader",
@@ -57,7 +58,8 @@ module.exports = {
         include: [
           path.join(__dirname, "src"),
           path.join(__dirname, "playground"),
-          path.join(__dirname, "node_modules", "monaco-editor")
+          path.join(__dirname, "node_modules", "monaco-editor"),
+          path.join(__dirname, "..", "bulma", "node_modules", "react-bulma-components"),
         ],
       },
       {

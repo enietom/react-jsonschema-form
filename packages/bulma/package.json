@@ -64,6 +64,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "react-bulma-components": "^3.3.0"
+    "react-bulma-components": "^3.4.0"
   }
 }
